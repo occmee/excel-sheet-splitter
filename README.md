@@ -4,7 +4,7 @@ xlsx ファイルのシートを分割して書き出すスクリプトです。
 
 #### Python の確認
 
-Mac OS にプリインストールされている Python を使う
+Mac の場合、プリインストールされている Python でだいじょうぶ
 
 ```
 $ python --version
@@ -23,6 +23,9 @@ $ curl -kL https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
 
 ```
 $ pip install openpyxl
+
+// もしくは、以下でも可
+$ ./install.sh
 ```
 
 ## 実行
