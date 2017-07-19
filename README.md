@@ -16,16 +16,13 @@ $ python --version
 $ pip -V
 
 // pip がインストールされていない場合は、以下を実行する
-$ curl -kL https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
+$ sudo easy_install pip
 ```
 
 #### openpyxl のインストール
 
 ```
 $ pip install openpyxl
-
-// もしくは、以下でも可
-$ ./install.sh
 ```
 
 ## 実行
